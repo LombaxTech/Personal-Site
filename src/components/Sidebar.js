@@ -3,7 +3,7 @@ import "../styles/sidebar.scss";
 import { NavLink, Link } from "react-router-dom";
 
 function Sidebar() {
-    console.log(window.location);
+    // console.log(window.location);
     return (
         <nav className="sidebar">
             <div className="sidebar-menu">
