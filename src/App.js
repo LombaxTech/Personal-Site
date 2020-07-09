@@ -18,7 +18,6 @@ export default function App() {
         <Router>
             <div className="wrapper">
                 <Sidebar />
-                <Link to="fuckinganywehre">anywhere</Link>
                 <div className="content-wrapper">
                     <Particles className="particles" />
                     <Switch>
