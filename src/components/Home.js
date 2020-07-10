@@ -12,8 +12,9 @@ export default function Home() {
                 <br /> using <div className="h1-bold">CODE</div>
             </h1>
             <div className="extra-info">
-                <Link to="/projects">View Projects</Link>
-
+                <Button className="view-projects-button">
+                    <Link to="/projects">View Projects</Link>
+                </Button>
                 <div className="name">
                     <h3>Rakib Khan</h3>
                 </div>

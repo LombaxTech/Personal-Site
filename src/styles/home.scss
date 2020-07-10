@@ -6,4 +6,23 @@
         display: inline;
         font-weight: bold;
     }
+    .view-projects-button {
+        // display: none;
+        background-color: red;
+        border: none;
+
+        font-weight: bold;
+        margin: 10px 0;
+        // margin-bottom: 10px;
+        font-size: 150%;
+        position: relative;
+        z-index: 1;
+
+        a {
+            color: white;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    }
 }

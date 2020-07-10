@@ -19,7 +19,8 @@ export default function App() {
             <div className="wrapper">
                 <Sidebar />
                 <div className="content-wrapper">
-                    <Particles className="particles" />
+                    {/* <Home /> */}
+                    {/* <Particles className="particles" /> */}
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/projects" exact component={Projects} />
