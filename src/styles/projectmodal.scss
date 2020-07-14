@@ -1,0 +1,12 @@
+.project-modal {
+    .modal-launch-button {
+        // display: none;
+        outline: none;
+
+        &:focus,
+        :active {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}

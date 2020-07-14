@@ -1,0 +1,21 @@
+.project-card {
+    // display: none;
+    // color: black;
+    width: 18rem;
+    height: 21rem;
+    border: none;
+    margin: 15px;
+
+    .card-image {
+        height: 12rem;
+    }
+
+    .card-body {
+        background: #2c2c2c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

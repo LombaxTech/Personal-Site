@@ -8,6 +8,7 @@
     align-items: center; /* Vertical */
     justify-content: center;
     z-index: 1;
+    position: fixed;
 
     .sidebar-menu {
         display: flex;

@@ -11,6 +11,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import ParticlesComponent from "./components/ParticlesComponent";
 
 export default function App() {
     return (
@@ -19,7 +20,8 @@ export default function App() {
                 <Sidebar />
                 <div className="content-wrapper">
                     {/* <Home /> */}
-                    <Particles className="particles" />
+                    {/* <Particles className="particles" /> */}
+                    <ParticlesComponent />
                     <div className="test-bg"></div>
                     <Switch>
                         <Route path="/" exact component={Home} />

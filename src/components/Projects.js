@@ -1,23 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ProjectCard from "./ProjectCard";
 import "../styles/projects.scss";
 
 export default function Projects() {
     return (
-        <div>
-            <ul className="projects">
-                <li className="project">
-                    <Link to="/project1" className="project-link">
-                        Project 1
-                    </Link>
-                </li>
-                <li className="project">
-                    <Link to="/project2">Project 2</Link>
-                </li>
-                <li className="project">
-                    <Link to="/project3">Project 3</Link>
-                </li>
-            </ul>
+        <div className="projects-page">
+            <h1 className="project">Projects</h1>
+            <div className="projects">
+                <ProjectCard className="project" />
+                <ProjectCard className="project" />
+                <ProjectCard className="project" />
+                <ProjectCard className="project" />
+                <ProjectCard className="project" />
+            </div>
         </div>
     );
 }
