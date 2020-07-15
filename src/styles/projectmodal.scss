@@ -1,7 +1,20 @@
 .project-modal {
+    width: 100%;
+
     .modal-launch-button {
         // display: none;
         outline: none;
+        width: 100%;
+        background: rgb(93, 0, 214);
+        border: none;
+        font-weight: bold;
+
+        &:hover {
+            border: 2px solid rgb(93, 0, 214);
+            background: white;
+            color: rgb(93, 0, 214);
+            font-weight: bold;
+        }
 
         &:focus,
         :active {
@@ -10,3 +23,61 @@
         }
     }
 }
+
+.modal {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.modal-launch-button {
+    width: 100%;
+}
+
+.modal-header {
+    background: #161616;
+    color: white;
+    span {
+        color: white;
+    }
+}
+
+.modal-body {
+    // background: rgb(180, 180, 180);
+    background: #2c2c2c;
+    color: white;
+
+    // height: 50vh;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.modal-image {
+    // max-height: 20vh;
+    height: 80%;
+    width: 100%;
+    display: block;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #161616;
+    .modal-footer-button {
+        display: block;
+        width: 100%;
+        border: none;
+        background: rgba(98, 2, 224, 0.685);
+        font-weight: bold;
+
+        &:hover {
+            border: 2px solid rgb(93, 0, 214);
+            background: white;
+            color: rgb(93, 0, 214);
+            font-weight: bold;
+        }
+    }
+}
+
+// .modal-open {
+//     overflow: scroll !important;
+// }

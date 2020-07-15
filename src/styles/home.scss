@@ -7,23 +7,47 @@
         display: inline;
         font-weight: bold;
     }
-    .view-projects-button {
-        // display: none;
-        background-color: red;
-        border: none;
 
-        font-weight: bold;
-        margin: 10px 0;
-        // margin-bottom: 10px;
-        font-size: 150%;
-        position: relative;
-        z-index: 1;
-
-        a {
-            color: white;
+    .extra-info {
+        margin-top: 25px;
+        .name {
+            margin-left: 3px;
+            h3 {
+                font-size: 1.6rem;
+            }
         }
-        a:hover {
-            text-decoration: none;
+
+        .view-projects-button {
+            // display: none;
+            background-color: rgb(93, 0, 214);
+            border: none;
+
+            font-weight: bold;
+            margin: 10px 0;
+            // margin-bottom: 10px;
+            font-size: 200%;
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                border: 2px solid rgb(93, 0, 214);
+                background: white;
+                a {
+                    color: rgb(93, 0, 214);
+                }
+                font-weight: bold;
+            }
+
+            &:active {
+                background: rgb(93, 0, 214) !important;
+            }
+
+            a {
+                color: white;
+            }
+            a:hover {
+                text-decoration: none;
+            }
         }
     }
 }

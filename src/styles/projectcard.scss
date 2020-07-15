@@ -5,13 +5,15 @@
     height: 21rem;
     border: none;
     margin: 15px;
+    padding: 5px;
+    background: #2c2c2c;
 
     .card-image {
         height: 12rem;
     }
 
     .card-body {
-        background: #2c2c2c;
+        // background: #2c2c2c;
         color: white;
         display: flex;
         flex-direction: column;

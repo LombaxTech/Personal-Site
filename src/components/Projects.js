@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCard";
 import "../styles/projects.scss";
 
 export default function Projects() {
+    // document.title += " project";
+
     return (
         <div className="projects-page">
             <h1 className="project">Projects</h1>
