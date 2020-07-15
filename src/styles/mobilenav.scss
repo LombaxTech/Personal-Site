@@ -1,0 +1,50 @@
+.mobile-nav {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.mobile-nav-link,
+.toggle-nav {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    color: white;
+    background: #202020;
+    &:hover {
+        color: white;
+        background: #2c2c2c;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        z-index: 0.5;
+    }
+    a {
+        color: white;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        // background: yellow;
+    }
+}
+
+.toggle-nav {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: #111111;
+
+    &:hover {
+        background: #111111;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-nav {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        // font: 5.5rem;
+        z-index: 10;
+    }
+}

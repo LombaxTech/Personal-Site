@@ -39,3 +39,15 @@ body {
 // button {
 //     background: blue;
 // }
+
+@media only screen and (max-width: 600px) {
+    .content-wrapper {
+        // display: none ;
+        margin: 0 !important;
+        flex-grow: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

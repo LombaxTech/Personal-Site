@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.scss";
 
 import Sidebar from "./components/Sidebar";
+import MobileNav from "./components/MobileNav";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -19,10 +20,8 @@ export default function App() {
             <div className="wrapper">
                 <Sidebar />
                 <div className="content-wrapper">
-                    {/* <Home /> */}
-                    {/* <Particles className="particles" /> */}
                     <ParticlesComponent />
-                    <div className="test-bg"></div>
+                    <MobileNav />
                     <Switch>
                         <Route path="/" exact component={Home} />
                         <Route path="/projects" exact component={Projects} />
