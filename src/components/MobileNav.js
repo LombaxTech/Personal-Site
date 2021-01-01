@@ -30,12 +30,12 @@ export default function MobileNav() {
                         <Link className="mobile-nav-link" to="/projects">
                             Projects
                         </Link>
-                        <Link className="mobile-nav-link" to="/about">
+                        {/* <Link className="mobile-nav-link" to="/about">
                             About
                         </Link>
                         <Link className="mobile-nav-link" to="/contact">
                             Contact
-                        </Link>
+                        </Link> */}
                     </nav>
                 </Headroom>
             </OutsideClickHandler>
