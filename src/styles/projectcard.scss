@@ -1,13 +1,14 @@
 .project-card {
-    // display: none;
-    // color: black;
     width: 18rem;
     height: 22rem;
     border: none;
     margin: 15px;
     padding: 5px;
-    background: #2c2c2c;
+    // background: #2c2c2c;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0.9;
     // background: red;
+    z-index: 1000;
 
     .card-image {
         height: 10rem;
@@ -23,6 +24,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
+        z-index: 1000;
 
         .title-text {
             display: flex;

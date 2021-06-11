@@ -17,6 +17,7 @@ import ParticlesComponent from "./components/ParticlesComponent";
 export default function App() {
     return (
         <Router>
+            <section className="bg-image"></section>
             <div className="wrapper">
                 <Sidebar />
                 <div className="content-wrapper">

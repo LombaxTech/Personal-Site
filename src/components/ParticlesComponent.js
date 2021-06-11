@@ -4,7 +4,7 @@ import "../styles/particlescomponent.scss";
 
 export default function ParticlesComponent() {
     return (
-        <div className="particles">
+        <div className="particles" style={{ zIndex: 500 }}>
             <Particles
                 params={{
                     particles: {
