@@ -12,7 +12,7 @@ export default function MobileNav() {
     };
 
     return (
-        <div className="mobile-nav">
+        <div className="mobile-nav" style={{ zIndex: 70000 }}>
             <OutsideClickHandler
                 onOutsideClick={() => {
                     setShow(false);
