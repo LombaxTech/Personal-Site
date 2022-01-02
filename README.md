@@ -5,7 +5,7 @@
     <br>
     <br>
     <p>
-        This is [my personal website](https://rakibkhan.netlify.app/) where you can view my projects. (code and preview links available)
+        This is my <a href="https://rakibkhan.netlify.app/"> personal website </a> where you can view my projects. (code and preview links available)
     </p>
     <br>
 </div>
